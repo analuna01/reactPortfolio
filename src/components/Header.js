@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
         <nav>
-        <h2>Ana Lunar</h2>
+        <h2>Ana Luna</h2>
         <ul className="nav-links">
             <Link to ="/main">
                 <li>Home</li>
