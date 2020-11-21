@@ -2,9 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-        <h1>Footer</h1>
-      
+    <div className="footer">
+          <p className="col-md">
+            &copy; {new Date().getFullYear()} Ana Luna | All rights reserved | Privacy
+          </p>
     </div>
   );
 }

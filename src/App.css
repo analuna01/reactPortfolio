@@ -55,12 +55,49 @@ nav {
   color: white;
 }
 
-.img{
-  height: 100px;
-  padding-left: 10px;
+.mainImage{
+  height: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
+
+.workImage{
+  height: 300px;
+}
+
+.main-contact{
+  align-items: center;
 }
 
 .contact-info {
   list-style: none;
   align-items: center;
+}
+
+.work{
+  list-style: none;
+  justify-content: space-around;
+}
+
+.page-container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content-wrapper{
+  flex: 1;
+
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  background-color: darkgoldenrod;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  bottom: 0vw;
+  clear: both;
 }

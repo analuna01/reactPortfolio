@@ -10,17 +10,20 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="page-container">
+      <div class ClassName="content-wrapper">
+        <Router>
           <Header />
-        <Switch>
-          <Route path="/" exact component={Main} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/footer" component={Footer} />
-        </Switch>
+          <Switch>
+            <Route path="/" exact component={Main} />
+            <Route path="/profile" component={Profile} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </Router>
       </div>
-    </Router>
+
+      <Footer />
+    </div>
   );
 }
 
