@@ -13,12 +13,14 @@ function App() {
     <div className="page-container">
       <div class ClassName="content-wrapper">
         <Router>
-          <Header />
-          <Switch>
-            <Route path="/" exact component={Main} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
+          <div>
+            <Header />
+            <Switch>
+              <Route path="/" exact component={Main} />
+              <Route path="/profile" component={Profile} />
+              <Route path="/contact" component={Contact} />
+            </Switch>
+          </div>
         </Router>
       </div>
 

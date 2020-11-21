@@ -66,8 +66,9 @@ nav {
   height: 300px;
 }
 
-.main-contact{
-  align-items: center;
+.contactInfo{
+  align-content: center;
+  text-align: center;
 }
 
 .contact-info {

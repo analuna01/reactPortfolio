@@ -7,7 +7,7 @@ function Header() {
         <nav>
         <h2>Ana Luna</h2>
         <ul className="nav-links">
-            <Link to ="/main">
+            <Link to ="/">
                 <li>Home</li>
             </Link>
             <Link to ="/profile">
