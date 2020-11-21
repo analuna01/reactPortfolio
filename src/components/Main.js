@@ -26,7 +26,7 @@ function Main() {
             <li> CSS </li>
             <li>JavaScript</li>
             <li>JQuery</li>
-            <li>None</li>
+            <li>Node</li>
             <li>React</li>
           </ul>
         </div>
